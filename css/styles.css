@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+    z-index: auto;
+}
+.logoHeader{
+    position: relative;
+    padding: 1%;
+}
+.nav{
+    position: absolute;
+    top: 40px; right: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 1%;
+}
+
+body {
+    width: 100vw;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+main {
+    background-image: url(../assets/imagenes/background01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main{
+    height: 100vh;
+}
+
+main div h2{
+    text-align: left;
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1cm;
+}
+
+body main div h3{
+    text-align: left;
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: gold;
+    text-decoration: solid;
+    font-style: italic;
+    font-size: 2cm;
+}
+
+
+
+
+
+.logoIndex{
+    margin-left: 10%;
+}
+
+.textoindex{
+    margin-top: 3%;
+}
+
+div video {
+    margin: 3%;
+    
+}
+
+.paginaprincipal{
+    
+}
+
+#quees{
+    
+    margin: 1%;
+    width: 100%;
+    padding: 5px;
+    }
+
+.div1{    
+    border-top-width: 2mm;
+    border-right-width: 2mm;
+    border-bottom-width: 2mm;
+    border-left-width: 2mm;
+    border-color: goldenrod;
+    border-style: inset;
+    margin: 1%;
+    width: 400px;
+    background-color: gold; 
+}
+.div1 img{
+    width: auto;
+    height: 220px;
+}
+.h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 160%;
+    text-align: center;
+    background-color: gold;
+    margin: 2%;
+}
+section div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    background-color: gold;
+    margin: 2%;
+}
+
+footer{
+    padding: 10px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+footer div h4{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+footer div h3{
+    color: gold;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+}
+
+footer section div nav{
+    padding: 10px;
+    height: 100px;
+}
