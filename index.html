@@ -4,87 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrumpA - Home</title>
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+
+    <title>TrumpA - Home</title>
 </head>
 <body>
     <header>
-        <div class="logoHeader">
-            <img src="./assets/imagenes/TrumpAlogonegro.png" alt="Logo" width="250px" class="logo">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="./assets/imagenes/TrumpAlogonegro.png" alt="" width="auto" height="60rem" class="d-inline-block align-text-top" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html #quees">Que es TrumpA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/ventajas.html">Ventajas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./pages/como.html">Como funciona</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./pages/documentacion.html">Documentacion</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                  </ul>
+              </div>
             </div>
+          </div>
+        </nav>
 
-            <div>
-            <nav class="nav">
-                <a href="#">Inicio |</a>
-                <a href="./index.html#quees">Que es TrumpA |</a>
-                <a href="./pages/ventajas.html">Ventajas |</a>
-                <a href="./pages/como.html">Como funciona |</a>
-                <a href="./pages/documentacion.html">Documentacion |</a>
-                <a href="./pages/contacto.html">Contacto |</a>
-            </nav>
-            </div>
+
     </header>
     <main>
-        <section class="paginaprincipal">
-        <div class="textoindex">
-            <img src="./assets/imagenes/TrumpAlogo.png" alt="logoPaguinaPrincipal" width="200px" class="logoIndex">
-            <h2>Ahorra en dolares.</h2>
-            <h3>SIN LIMITES.</h3>
+        <div class="container-fluid">
+            <section>
+                <div class="ahorro">
+                    <img src="./assets/imagenes/TrumpA logo.png" class="logomain" alt="">
+                    <h2 class="textoNegro">Ahorra en Dólares</h2>
+                    <h3 class="textoAmarillo">SIN LIMITES</h3>
+                    <video src="./assets/videos/TrumpA moneda video.mp4" autoplay controls muted class="videoIndex col-6"></video>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
         </div>
-        
-        <div>
-        <video src="./assets/videos/TrumpA moneda video.mp4" width="800" autoplay controls class="videoprincipal"></video>
-        </div>
-        </section >
-
+        <h1 class="textoH1" id="quees">Te contamos un poco más...</h1>
         <br>
-        
-        <section id="quees">
-            <div class="div1">
-                <img src="./assets/imagenes/meme1.jpg" alt="meme1">
-                <h2 class="h2">¿Que es TrumpA?</h2>
-                <p>TrumpA es una Criptomoneda bien Argenta que llega para solucionar un problema que tenemos los Argentinos. TrumpA es una Stablecoin, lo que permite que
-            cualquier persona como vos, como yo o el vecin@ de enfrente pueda usar TrumpA como inversion o alternativa de ahorro. Hecha la ley, hecha la TrumpA.</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+            <div class="col">
+              <div class="card">
+                <img src="./assets/imagenes/meme1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">¿Que es TrumpA?</h5>
+                  <p class="card-text">TrumpA es una Criptomoneda bien Argenta que llega para solucionar un problema que tenemos los Argentinos. TrumpA es una Stablecoin, lo que permite que
+                    cualquier persona como vos, como yo o el vecin@ de enfrente pueda usar TrumpA como inversion o alternativa de ahorro. Hecha la ley, hecha la TrumpA.</p>
+                </div>
+              </div>
             </div>
-            <br>
-            <div class="div1">
-                <img src="./assets/imagenes/dolarTrumpa.jpg" alt="meme1" >
-                <h2 class="h2">¿Porque comprar TrumpA?</h2>
-                <p>TrumpA es una Stablecoin que fue creada con la finalidad de que su valor permanezca estable. Para mantener esta poca variabilidad en su precio de mercado,
-            necesitan un backup de respaldo. La relación de resguardo se hace con otros activos financieros, monedas fiat, materias primas e incluso otros criptoactivos.</p>
+            <div class="col">
+              <div class="card">
+                <img src="./assets/imagenes/dolarTrumpa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">¿Porque comprar TrumpA?</h5>
+                  <p class="card-text">TrumpA es una Stablecoin que fue creada con la finalidad de que su valor permanezca estable. Para mantener esta poca variabilidad en su precio de mercado,
+                    necesitan un backup de respaldo. La relación de resguardo se hace con otros activos financieros, monedas fiat, materias primas e incluso otros criptoactivos.</p>
+                </div>
+              </div>
             </div>
-            <br>
-            <div class="div1">
-                <img src="./assets/imagenes/bradpitt.jpg" alt="meme1">
-                <h2 class="h2">¿Que es una Stablecoin?</h2>
-                <p>Una Stablecoin es una moneda digital vinculada con un activo de reserva “estable” como el dólar estadounidense. Este tipo de monedas están diseñadas para
-            reducir la volatilidad propia de las criptomonedas sin respaldo como el Bitcoin, por ej. Por lo tanta, una Stablecoin siempre va a mantener su precio de por vida!
-            Lo que significa que 1 TrumpA siempre va a valer 1 Dolar.</p>
+            <div class="col">
+              <div class="card">
+                <img src="./assets/imagenes/bradpitt.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">¿Que es una Stablecoin?</h5>
+                  <p class="card-text">Una Stablecoin es una moneda digital vinculada con un activo de reserva “estable” como el dólar estadounidense. Este tipo de monedas están diseñadas para
+                    reducir la volatilidad propia de las criptomonedas sin respaldo como el Bitcoin, por ej. Por lo tanta, una Stablecoin siempre va a mantener su precio de por vida!
+                    Lo que significa que 1 TrumpA siempre va a valer 1 Dolar.</p>
+                </div>
+              </div>
             </div>
-        </section>
-    </main>
-    <footer>
-                    <div>
-                <h4>Todos los derechos reservados - 2022</h4>
             </div>
-        
-            <div>
-                <h3>Seguinos en nuestras Redes Sociales!</h3>
             </div>
+          </div>
+          <br>
 
-            <div >
-                <nav class="redes">
-                    <a href="http://www.facebook.com" target="_blank"> <img src="./assets/imagenes/facebook.png" alt="facebook" width="50"></a>
-                    <a href="http://www.instagram.com" target="_blank"> <img src="./assets/imagenes/instagram.png" alt="instagram" width="50"></a>
-                    <a href="http://www.twitter.com" target="_blank"> <img src="./assets/imagenes/twitter.png" alt="twitter" width="50"></a>
-                    <a href="http://www.telegram.com" target="_blank"> <img src="./assets/imagenes/telegram.png" alt="telegram" width="50"></a>
-                    <a href="http://www.youtube.com" target="_blank"> <img src="./assets/imagenes/youtube.png" alt="youtube" width="50"></a>
-                    <a href="http://web.whatsapp.com" target="_blank"> <img src="./assets/imagenes/whatsapp.png" alt="whatsapp" width="50"></a>
-                </nav>
+    </main>
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-facebook-f"></i
+                >
+                <img src="./assets/imagenes/facebook.svg" class="icon" alt=""></a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-twitter"></i
+                >
+                <img src="./assets/imagenes/twitter.svg" class="icon" alt=""></a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-instagram"></i
+                >
+                <img src="./assets/imagenes/instagram.svg" class="icon" alt=""></a>
+          
+                <!-- Youtube -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-youtube"></i
+                >
+                <img src="./assets/imagenes/youtube.svg" class="icon" alt=""></a>
+              </section>
+              <!-- Section: Social media -->
             </div>
-        
-    </footer>
-    <link rel="stylesheet" href="./js/bootstrap.js">
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-white" href="https://instagram.com/PabloRuso86">Pablo Neto</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

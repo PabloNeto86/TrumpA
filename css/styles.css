@@ -3,152 +3,145 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
-
-header {
-    position: relative;
-    margin-top: 0%;
-    margin-left: 0%;
-    background-color: black;
+header{
     position: sticky;
     top: 0%;
     z-index: auto;
 }
-.logoHeader{
-    position: relative;
-    padding: 1%;
-}
-.nav{
-    position: absolute;
-    top: 40px; right: 100px;
-}
-
-a {
-    color: white;
+.bg-light {
+    background-color: black !important;
+  }
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #ffffff !important;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 1%;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-body {
-    width: 100vw;
-    margin-top: 0%;
-    padding: 0%;
-}
-
-main {
-    background-image: url(../assets/imagenes/background01.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.main{
-    height: 100vh;
-}
-
-main div h2{
-    text-align: left;
-    margin-left: 50px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 1cm;
-}
-
-body main div h3{
-    text-align: left;
-    margin-left: 50px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+.nav-link:hover, .nav-link:focus {
     color: gold;
-    text-decoration: solid;
-    font-style: italic;
-    font-size: 2cm;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(255, 238, 0) , 0 0 20px rgb(255, 238, 0) , 0 0 30px rgb(255, 238, 0) , 0 0 40px #fbff00 , 0 0 70px #fbff00 , 0 0 80px #fbff00 , 0 0 100px #fbff00 ;
+  }
+  
+body{
+  background: url(../assets/imagenes/background01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
 }
-
-
-
-
-
-.logoIndex{
-    margin-left: 10%;
+.textoAmarillo{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 600%;
+  color: gold;
+  text-shadow: -2px -2px 1px #000;
 }
-
-.textoindex{
-    margin-top: 3%;
+.textoNegro{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 400%;
+  text-shadow: -2px -2px 1px gold;
 }
-
-div video {
-    margin: 3%;
-    
+.logomain{
+  width: 10%;
 }
-
-.paginaprincipal{
-    
+.videoIndex{
+  float: right;
+  margin-top: -30%;
 }
-
-#quees{
-    
-    margin: 1%;
-    width: 100%;
-    padding: 5px;
+.ahorro{
+  padding: 5%;
+}
+.card-img-top{
+  height: 40vh;
+}
+.textoH1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 300%;
+  text-shadow: -2px -2px 1px #000;
+  color: gold;
+  padding-left: 5%;
+}
+.card-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+}
+.card-body{
+  background-color: gold;
+}
+.btn-outline-light {
+  color: gold;
+  border-color: gold;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: gold;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: gold;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.icon{
+  width: 2rem;
+  box-shadow: 0 0 5px rgb(255, 238, 0) , 0 0 10px rgb(255, 238, 0) , 0 0 15px rgb(255, 238, 0) , 0 0 20px #fbff00 , 0 0 30px #fbff00 , 0 0 40px #fbff00 , 0 0 50px #fbff00 ;
+}
+.textoAmarilloH2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  color: gold;
+  text-shadow: -2px -2px 1px #000;
+}
+.textoAmarilloH5{
+  background-color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  text-shadow: -2px -2px 1px rgb(0, 0, 0);
+}
+.card-text{
+  font-weight: bold;
+}
+.cardventaja{
+  padding: 2%;
+}
+.card-img-top{
+  padding: 5%;
+}
+.btn-primary {
+  color: #fff;
+  background-color: black;
+  border-color: gold;
+  }
+  .btn-primary:hover {
+    color: rgb(0, 0, 0);
+    background-color: gold;
+    border-color: gold;
     }
-
-.div1{    
-    border-top-width: 2mm;
-    border-right-width: 2mm;
-    border-bottom-width: 2mm;
-    border-left-width: 2mm;
-    border-color: goldenrod;
-    border-style: inset;
-    margin: 1%;
-    width: 400px;
-    background-color: gold; 
-}
-.div1 img{
-    width: auto;
-    height: 220px;
-}
-.h2{
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-weight: 1000;
-    font-size: 160%;
-    text-align: center;
-    background-color: gold;
-    margin: 2%;
-}
-section div p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    background-color: gold;
-    margin: 2%;
-}
-
-footer{
-    padding: 10px;
-    height: 80px;
-    background-color: black;
-    color: white;
-}
-
-footer div h4{
-    color: white;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: justify;
-    padding-right: 10px;
-}
-
-footer div h3{
-    color: gold;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 10px;
-}
-
-footer section div nav{
-    padding: 10px;
-    height: 100px;
-}
+    .form-check-input:checked {
+      background-color: gold;
+      border-color: gold;
+      }

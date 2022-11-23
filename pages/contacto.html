@@ -4,83 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrumpA - Contacto</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    
+    <title>TrumpA - Contacto</title>    
 </head>
 <body>
     <header>
-        <div class="logoHeader">
-            <img src="../assets/imagenes/TrumpAlogonegro.png" alt="Logo" width="300px">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="../assets/imagenes/TrumpAlogonegro.png" alt="" width="auto" height="60rem" class="d-inline-block align-text-top" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html #quees">Que es TrumpA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ventajas.html">Ventajas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./como.html">Como funciona</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./documentacion.html">Documentacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+            </ul>
             </div>
-    
-            <div>
-            <nav class="nav">
-                <a href="../index.html">Inicio |</a>
-                <a href="../index.html #quees">Que es TrumpA |</a>
-                <a href="./ventajas.html">Ventajas |</a>
-                <a href="./como.html">Como funciona |</a>
-                <a href="./documentacion.html">Documentacion |</a>
-                <a href="#">Contacto |</a>
-            </nav>
-            </div>
+        </nav>
     </header>
-    <main class="main">
+    <main class="container">
         <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.2179544108944!2d-58.367542968308!3d-34.61275716056252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d9c2d70389%3A0xe7b5e9ee316678f!2sPuerto%20Madero%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1665696000116!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <section>
-            <form>
+          <br>
                 <div>
-                <h3>Envianos tu consulta</h3>
+                <h2 class="textoAmarilloH2">Envianos tu consulta</h2>
                 </div>
-                
-                <div>
-                <input type="text" placeholder="Nombre" required>
+                <form action="container">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
-                <br>
-                <div>
-                <input type="email" placeholder="E-mail" required>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
-                <br>
-                <div>
-                <input type="text" placeholder="Mensaje" required >
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <br>
-                <div>
-                <input type="checkbox" name="" value="1">
-                <label for="">Suscribirse a nuestro boletin mensual</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Suscribirse a nuestro boletin mensual
+                  </label>
                 </div>
-                <br>
-                <div>
-                <input type="submit" value="Enviar">
-                </div>
-
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </div>
             </form>
+            <br>
         </section>
     </main>
-    <footer>
-        <div>
-    <h4>Todos los derechos reservados - 2022</h4>
-    </div>
-
-    <div>
-    <h3>Seguinos en nuestras Redes Sociales!</h3>
-    </div>
-
-    <div >
-    <nav class="redes">
-        <a href="http://www.facebook.com" target="_blank"> <img src="../assets/imagenes/facebook.png" alt="facebook" width="50"></a>
-        <a href="http://www.instagram.com" target="_blank"> <img src="../assets/imagenes/instagram.png" alt="instagram" width="50"></a>
-        <a href="http://www.twitter.com" target="_blank"> <img src="../assets/imagenes/twitter.png" alt="twitter" width="50"></a>
-        <a href="http://www.telegram.com" target="_blank"> <img src="../assets/imagenes/telegram.png" alt="telegram" width="50"></a>
-        <a href="http://www.youtube.com" target="_blank"> <img src="../assets/imagenes/youtube.png" alt="youtube" width="50"></a>
-        <a href="http://web.whatsapp.com" target="_blank"> <img src="../assets/imagenes/whatsapp.png" alt="whatsapp" width="50"></a>
-    </nav>
-    </div>
-
-</footer>
-<link rel="stylesheet" href="../js/bootstrap.js">
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            >
+            <img src="../assets/imagenes/facebook.svg" class="icon" alt=""></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            >
+            <img src="../assets/imagenes/twitter.svg" class="icon" alt=""></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            >
+            <img src="../assets/imagenes/instagram.svg" class="icon" alt=""></a>
+      
+            <!-- Youtube -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-youtube"></i
+            >
+            <img src="../assets/imagenes/youtube.svg" class="icon" alt=""></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://instagram.com/PabloRuso86">Pablo Neto</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

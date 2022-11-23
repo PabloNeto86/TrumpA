@@ -4,65 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrumpA - Como funciona TrumpA</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+
+    <title>TrumpA - Como funciona TrumpA</title>  
 </head>
 <body>
     <header>
-        <div class="logoHeader">
-        <img src="../assets/imagenes/TrumpAlogonegro.png" alt="Logo" width="300px" id="logo">
-        </div>
-
-        <div>
-        <nav class="nav">
-            <a href="../index.html">Inicio |</a>
-            <a href="../index.html #quees">Que es TrumpA |</a>
-            <a href="./ventajas.html">Ventajas |</a>
-            <a href="#">Como funciona |</a>
-            <a href="./documentacion.html">Documentacion |</a>
-            <a href="./contacto.html">Contacto |</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="../assets/imagenes/TrumpAlogonegro.png" alt="" width="auto" height="60rem" class="d-inline-block align-text-top" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html #quees">Que es TrumpA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ventajas.html">Ventajas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Como funciona</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./documentacion.html">Documentacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            </ul>
+            </div>
         </nav>
-        </div>
-
     </header>
-    <main class="main">
-        <h2>¿Como funciona TrumpA?</h2>
-        <img src="../assets/imagenes/deposito.png" alt="deposito" width="50">
-        <p>Se depositan USDC en un contrato digital y por cada 1 USDC enviado a la bóveda se emiten 250 TA (TrumpA).</p>
-        <br>
-        <img src="../assets/imagenes/recibe.png" alt="deposito" width="50">
-        <p>Los dólares en la bóveda se depositan en el Liquidity Pool (MAI/USDC) de Quickswap y a farmear en QiDao. A
-            precios de hoy rondan el 15% de interés compuesto.</p>
-        <br>
-        <img src="../assets/imagenes/cashback.png" alt="deposito" width="50">
-        <p>Los TA se apreciarán contra el Peso Argentino al tener respaldo en dólar (Cotización Blue) y contra el mismo
-            dólar por los intereses obtenidos del Liquidity Pool de Quickswap y el Farm de QiDao</p>
-        <br>
-        <img src="../assets/imagenes/retira.png" alt="deposito" width="50">
-        <p>Los TA pueden canjearse en la bóveda en todo momento y retirar los dólares correspondientes</p>
+    <main>
+        <h1 class="textoAmarillo">¿Como funciona TrumpA?</h1>
+        <section class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../assets/imagenes/deposito.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Deposito</h5>
+                  <p class="card-text">Se depositan USDC en un contrato digital y por cada 1 USDC enviado a la bóveda se emiten 250 TA (TrumpA).</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../assets/imagenes/recibe.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Intereses</h5>
+                  <p class="card-text">Los dólares en la bóveda se depositan en el Liquidity Pool (MAI/USDC) de Quickswap y a farmear en QiDao. A
+                    precios de hoy rondan el 15% de interés compuesto.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../assets/imagenes/cashback.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cash Back</h5>
+                  <p class="card-text">Los TA se apreciarán contra el Peso Argentino al tener respaldo en dólar (Cotización Blue) y contra el mismo
+                    dólar por los intereses obtenidos del Liquidity Pool de Quickswap y el Farm de QiDao</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../assets/imagenes/retira.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Retirá</h5>
+                  <p class="card-text">Los TA pueden canjearse en la bóveda en todo momento y retirar los dólares correspondientes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
     </main>
-    <footer>
-        <div>
-    <h4>Todos los derechos reservados - 2022</h4>
-    </div>
-
-    <div>
-    <h3>Seguinos en nuestras Redes Sociales!</h3>
-    </div>
-
-    <div >
-    <nav class="redes">
-        <a href="http://www.facebook.com" target="_blank"> <img src="../assets/imagenes/facebook.png" alt="facebook" width="50"></a>
-        <a href="http://www.instagram.com" target="_blank"> <img src="../assets/imagenes/instagram.png" alt="instagram" width="50"></a>
-        <a href="http://www.twitter.com" target="_blank"> <img src="../assets/imagenes/twitter.png" alt="twitter" width="50"></a>
-        <a href="http://www.telegram.com" target="_blank"> <img src="../assets/imagenes/telegram.png" alt="telegram" width="50"></a>
-        <a href="http://www.youtube.com" target="_blank"> <img src="../assets/imagenes/youtube.png" alt="youtube" width="50"></a>
-        <a href="http://web.whatsapp.com" target="_blank"> <img src="../assets/imagenes/whatsapp.png" alt="whatsapp" width="50"></a>
-    </nav>
-    </div>
-
-</footer>
-<link rel="stylesheet" href="../js/bootstrap.js">
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            >
+            <img src="../assets/imagenes/facebook.svg" class="icon" alt=""></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            >
+            <img src="../assets/imagenes/twitter.svg" class="icon" alt=""></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            >
+            <img src="../assets/imagenes/instagram.svg" class="icon" alt=""></a>
+      
+            <!-- Youtube -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-youtube"></i
+            >
+            <img src="../assets/imagenes/youtube.svg" class="icon" alt=""></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://instagram.com/PabloRuso86">Pablo Neto</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
