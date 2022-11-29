@@ -7,6 +7,7 @@
     
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>TrumpA - Home</title>
 </head>
@@ -19,7 +20,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
+              <div class="navbar-nav ms-auto ">
                 <ul class="nav justify-content-end">
                   <li class="nav-item">
                     <a class="nav-link" href="#">Inicio</a>
@@ -61,11 +62,11 @@
             <br>
             <br>
         </div>
-        <h1 class="textoH1" id="quees">Te contamos un poco más...</h1>
+        <h1 class="textoH1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" id="quees">Te contamos un poco más...</h1>
         <br>
         <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
-            <div class="col">
-              <div class="card">
+            <div class="col" data-aos="flip-left">
+              <div class="card" >
                 <img src="./assets/imagenes/meme1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">¿Que es TrumpA?</h5>
@@ -74,7 +75,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="card">
                 <img src="./assets/imagenes/dolarTrumpa.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -84,7 +85,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="card">
                 <img src="./assets/imagenes/bradpitt.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -142,5 +143,9 @@
             <!-- Copyright -->
           </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

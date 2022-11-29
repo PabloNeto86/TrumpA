@@ -7,6 +7,7 @@
     
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <title>TrumpA - Ventajas</title>    
 </head>
@@ -19,7 +20,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav ms-auto">
             <ul class="nav justify-content-end">
             <li class="nav-item">
               <a class="nav-link" href="../index.html">Inicio</a>
@@ -45,12 +46,12 @@
     </header>
     <main>
         <section class="container cardventaja">
-            <div class="card mb-3">
+            <div class="card mb-3" data-aos="flip-left">
                 <div class="row g-0">
                   <div class="col-md-3">
                     <img src="../assets/imagenes/moria.jpg" class="img-fluid rounded-start" alt="...">
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-9" >
                     <div class="card-body">
                       <h5 class="card-title textoAmarilloH5">¿Para que me sirve TrumpA?</h5>
                       <p class="card-text">TrumpA, al estar respaldada en el Dolar, es una forma legal de comprar dolares, 1 TA (TrumpA) vale 1 Dolar, hoy, mañana y siempre. Es una
@@ -60,7 +61,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card mb-3">
+              <div class="card mb-3" data-aos="flip-left">
                 <div class="row g-0">
                   <div class="col-md-3">
                     <img src="../assets/imagenes/futurama.jpg" class="img-fluid rounded-start" alt="...">
@@ -74,7 +75,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card mb-3">
+              <div class="card mb-3" data-aos="flip-left">
                 <div class="row g-0">
                   <div class="col-md-3">
                     <img src="../assets/imagenes/mrbean.jpg" class="img-fluid rounded-start" alt="...">
@@ -130,7 +131,10 @@
         </div>
         <!-- Copyright -->
       </footer>
-        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
