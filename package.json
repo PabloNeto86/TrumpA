@@ -1,0 +1,25 @@
+{
+  "name": "trumpa",
+  "version": "1.0.0",
+  "description": "Proyecto de Coder - TrumpA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloNeto86/TrumpA.git"
+  },
+  "author": "Pablo Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloNeto86/TrumpA/issues"
+  },
+  "homepage": "https://github.com/PabloNeto86/TrumpA#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

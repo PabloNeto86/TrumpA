@@ -1,0 +1,297 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0%;
+    z-index: auto;
+    .navbar-nav {
+      display: block;
+      margin-right: 5%;
+      color: #ffffff !important;
+      text-decoration: none;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+      .nav-link{
+        &:hover {
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          text-shadow: 0 0 10px gold , 0 0 20px gold , 0 0 30px gold , 0 0 40px gold , 0 0 70px gold , 0 0 80px gold , 0 0 100px gold ;
+          }
+        }
+    }
+}
+.ahorro{
+    padding: 5%;}
+  
+body{
+  background: url(../assets/imagenes/background01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+      .logomain{
+      width: 10%;
+      }   
+    .textoAmarillo{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 600%;
+      color: gold;
+      text-shadow: -2px -2px 1px #000;
+      }
+    .textoNegro{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 400%;
+      text-shadow: -2px -2px 1px gold;
+      }
+    .videoIndex{
+      float: right;
+      margin-top: -30%;
+      }
+  }
+
+
+.row{
+  .col{
+    .card{
+      .card-img-top{
+        height: 40vh;}
+      
+      .card-body{
+        background-color: gold;
+        border-radius: 0px 30px/50px;
+        .card-title{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: italic;
+          font-weight: bold;
+          text-align: center;
+          font-size: xx-large;
+        }
+      }   
+    }
+  }
+}
+.cardventaja{
+  padding: 2%;
+  .card{
+    .row{
+      .card-body{
+        background-color: gold;
+        height: auto;
+        border-radius: 0px 30px/50px;
+        .card-title{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: italic;
+          font-weight: bold;
+          text-align: center;
+          font-size: xx-large;
+        }
+        .textoAmarilloH5{
+          background-color: #000;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-weight: bold;
+          font-size: 2rem;
+          color: rgb(255, 255, 255);
+          text-shadow: -2px -2px 1px rgb(0, 0, 0);
+        }
+        .card-text{
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.textoNegroP{
+  color: #000;
+  font-weight: bold;
+  text-shadow: -2px -2px 1px rgb(255, 255, 255);
+}
+
+.textoH1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 300%;
+  text-shadow: -2px -2px 1px #000;
+  color: gold;
+  padding-left: 5%;
+}
+
+
+.btn-outline-light {
+  color: gold;
+  border-color: gold;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: gold;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: gold;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.icon{
+  width: 2rem;
+  box-shadow: 0 0 5px rgb(255, 238, 0) , 0 0 10px rgb(255, 238, 0) , 0 0 15px rgb(255, 238, 0) , 0 0 20px #fbff00 , 0 0 30px #fbff00 , 0 0 40px #fbff00 , 0 0 50px #fbff00 ;
+}
+.textoAmarilloH2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  color: gold;
+  text-shadow: -2px -2px 1px #000;
+}
+
+
+
+.card-img-top{
+  padding: 5%;
+}
+.btn-primary {
+  color: #fff;
+  background-color: black;
+  border-color: gold;
+    &:hover {
+      color: rgb(0, 0, 0);
+      background-color: gold;
+      border-color: gold;
+    }
+}
+    .form-check-input:checked {
+      background-color: gold;
+      border-color: gold;
+      }
+
+.iconoFlotante{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:gold;
+  color:gold;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+.iconoarriba{  
+  height: 50%;
+}
+
+/*Pantallas pequeñas (móviles de más de 576px)*/
+@media (max-width: 739px) {
+  body{
+    .ahorro{
+      .logomain{
+        width: 50%;
+        }
+      .card{
+      align-items: center;
+        .card-img-top{
+        width: 40%;
+        height: 50%;
+        padding: 1%;
+        }
+      }
+      .textoAmarillo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 500%;
+        color: gold;
+        text-shadow: -2px -2px 1px #000;
+        }
+      .textoNegro{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 200%;
+        text-shadow: -2px -2px 1px gold;
+        }
+      .videoIndex{
+        width: 100%;
+        margin-top: 5%;
+        }
+    }
+  }
+  header{
+    .nav {
+      display: inline;
+      flex-wrap: wrap;
+      padding-left: 10%;
+      margin-bottom: 10%;
+      list-style: none;
+    }
+  }
+}
+
+/*Pantallas medianas (tablets de más de 768px)*/
+@media (min-width: 740px) and (max-width: 1200px) {
+  
+  body{
+    .ahorro{
+      .logomain{
+        width: 13%;
+        }
+      .card{
+      align-items: center;
+        .card-img-top{
+        width: 40%;
+        height: 50%;
+        padding: 1%;
+        }
+      }
+      .textoAmarillo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 300%;
+        color: gold;
+        text-shadow: -2px -2px 1px #000;
+        }
+      .textoNegro{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 200%;
+        text-shadow: -2px -2px 1px gold;
+        }
+      .videoIndex{
+        float: right;
+        width: 50%;
+        margin-top: -30%;
+        }
+    }
+  }
+  header{
+    .nav {
+      display: inline;
+      flex-wrap: wrap;
+      padding-left: 10%;
+      margin-bottom: 10%;
+      list-style: none;
+    }
+  }
+}
+
+/*Pantallas muy grandes (desktops de más de 1000px)*/
+@media (max-width: 1000px) {
+
+
+}
