@@ -215,7 +215,7 @@ body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-style: italic;
         font-weight: bold;
-        font-size: 500%;
+        font-size: 300%;
         color: gold;
         text-shadow: -2px -2px 1px #000;
         }
@@ -228,6 +228,31 @@ body{
       .videoIndex{
         width: 100%;
         margin-top: 5%;
+        }
+        .btn-primary {
+          color: #fff;
+          background-color: black;
+          border-color: gold;
+          size: 10%;
+            &:hover {
+              color: rgb(0, 0, 0);
+              background-color: gold;
+              border-color: gold;
+            }
+        }
+        .textoAmarilloH2{
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: italic;
+          font-weight: bold;
+          font-size: 1rem;
+          color: gold;
+          text-shadow: -2px -2px 1px #000;
+        }
+        .textoNegroP{
+          color: #000;
+          font-weight: bold;
+          font-size: 1rem;
+          text-shadow: -2px -2px 1px rgb(255, 255, 255);
         }
     }
   }
